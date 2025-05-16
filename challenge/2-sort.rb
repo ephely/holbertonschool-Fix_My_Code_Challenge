@@ -13,7 +13,7 @@ loop do
     swapped = false
 
     (n-1).times do |i|
-        if result[i] < result[i+1]
+        if result[i] > result[i+1]
             result[i], result[i+1] = result[i+1], result[i]
             swapped = true
         end
